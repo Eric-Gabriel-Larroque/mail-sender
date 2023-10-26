@@ -39,7 +39,7 @@ const MAIL_CONTENT = `<!DOCTYPE html>
         #logo {
             width: 100%;
             height: 100px;
-            background-image: url(./img/logo.jpg);
+            background-image: url(https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/logo.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -48,7 +48,7 @@ const MAIL_CONTENT = `<!DOCTYPE html>
         #console {
             width: 100%;
             height: 80px;
-            background-image: url(./img/miranha-console-e-jogo.png);
+            background-image: url(https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/miranha-console-e-jogo.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -137,13 +137,13 @@ const MAIL_CONTENT = `<!DOCTYPE html>
                 </td>
                 <td>
                     <a href="https://www.instagram.com/checkpoint.games/">
-                        <img id="insta" src="img/insta.webp" alt="">
+                        <img id="insta" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/insta.webp" alt="">
                     </a>
                     <a href="https://www.facebook.com/checkpoint.face/">
-                        <img id="face" src="img/face.png" alt="">
+                        <img id="face" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/face.png" alt="">
                     </a>
                     <a href="https://api.whatsapp.com/send/?phone=5192523450&text&type=phone_number&app_absent=0">
-                        <img id="whats" src="img/whats.png" alt="">
+                        <img id="whats" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/whats.png" alt="">
                     </a>
                 </td>
                 <td id="endereco">
