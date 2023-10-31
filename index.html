@@ -14,9 +14,6 @@
         }
 
         table {
-            display: flex;
-            align-items: center;
-            justify-content: center;
             font-family: Arial, Helvetica, sans-serif;
             background-color: #f2f2f2;
         }
@@ -27,35 +24,30 @@
         }
 
         #cabecalho {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            width: 100%;
             background-color: #131313;
             border-radius: 10px 10px 0 0;
+            position: relative;
+            text-align: center;
         }
 
         #logo {
-            width: 100%;
-            height: 100px;
-            background-image: url(./img/logo.jpg);
+            height: 140px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
+            margin-bottom: 20px;
+            margin-right: 10px;
         }
 
         #console {
-            width: 100%;
-            height: 80px;
-            background-image: url(./img/miranha-console-e-jogo.png);
+            height: 150px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
         }
 
         #descricao {
-            display: flex;
-            align-items: center;
-            justify-content: center;
             text-align: center;
         }
 
@@ -66,13 +58,13 @@
             color: black;
         }
 
-        img {
+        #insta, #whats, #face {
             height: 30px;
             margin-left: 7px;
             filter: brightness(10%);
         }
 
-        img:hover {
+        #insta, #whats, #face:hover {
             transform: translateY(-2px);
             transition: .8s;
         }
@@ -87,14 +79,15 @@
         }
 
         #whats {
+            height: 34px;
+        }
+
+        #face {
             height: 33px;
         }
 
         #rodape {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
         }
 
         #endereco {
@@ -115,8 +108,10 @@
     <table>
         <tbody>
             <tr id="cabecalho">
-                <td id="logo"></td>
-                <td id="console"></td>
+                <td>
+                    <img id="logo"src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/logo.jpg?raw=true" alt=""><br>
+                    <img id="console"src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/miranha-console-e-jogo.png?raw=true" alt="">
+                </td>
             </tr>
             <tr id="descricao">
                 <td>
@@ -132,22 +127,20 @@
             <tr id="rodape">
                 <td>
                     <p>Nossas redes:</p>
-                </td>
-                <td>
                     <a href="https://www.instagram.com/checkpoint.games/">
-                        <img id="insta" src="img/insta.webp" alt="">
+                        <img id="insta" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/insta.webp?raw=true" alt="">
                     </a>
                     <a href="https://www.facebook.com/checkpoint.face/">
-                        <img id="face" src="img/face.png" alt="">
+                        <img id="face" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/face.png?raw=true" alt="">
                     </a>
                     <a href="https://api.whatsapp.com/send/?phone=5192523450&text&type=phone_number&app_absent=0">
-                        <img id="whats" src="img/whats.png" alt="">
+                        <img id="whats" src="https://github.com/Eric-Gabriel-Larroque/mail-sender/blob/main/img/whats.png?raw=true" alt="">
                     </a>
-                </td>
-                <td id="endereco">
                     <hr>
-                    Bourbon Shopping Country, Av. Túlio de Rose, 80 - 77 · (51) 3311-0109 | 
+                    <p id="endereco">
+                        Bourbon Shopping Country, Av. Túlio de Rose, 80 - 77 · (51) 3311-0109 | 
                     Av. Assis Brasil, 2611 - Lj 115A · (51) 3019-0707
+                    </p>
                 </td>
             </tr>
         </tbody>
